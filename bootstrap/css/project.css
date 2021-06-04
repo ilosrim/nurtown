@@ -1,0 +1,80 @@
+.section-one {
+  margin-top: 120px; }
+  .section-one .title{
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+  }
+  .section-one .title p{
+    font-weight: bold;
+    color: #333333;
+  }
+  .section-one .containerOwl {
+    /*padding: 30px 70px 30px 100px;*/
+
+    height: 435px; }
+  .section-one .first-img{
+    width: 670px;
+    height: 100%;
+  }
+  .section-one .about-sec .title {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD; }
+  .section-one .about-sec .about-text {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000; }
+  .section-one .about-sec .sub-link {
+    width: 222px;
+    height: 50px;
+    background-color: #fff;
+    margin-top: 20px;
+    transition: 0.3s; }
+    .section-one .about-sec .sub-link:hover {
+      background-color: #f1f1f1; }
+    .section-one .about-sec .sub-link a {
+      text-decoration: none; }
+      .section-one .about-sec .sub-link a span {
+        background-image: url("../../images/ico-shape.png");
+        background-repeat: no-repeat;
+        background-position: 80% center;
+        padding-right: 52px;
+        padding-left: 30px;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #333333; }
+.gallery-section .owl-theme .owl-nav {
+  position: absolute;
+  bottom: -100px;
+  left: 155px;
+   }
+  .gallery-section .owl-theme .owl-nav button.owl-prev,
+  .gallery-section .owl-theme .owl-nav button.owl-next {
+    background-image: url("../../images/ico-shape(1).png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 53px;
+    height: 53px;
+    border: 1px solid #F2F2F2;
+    outline: none; }
+    .section-one .owl-theme .owl-nav button.owl-next {
+    background-image: url("../../images/ico-shape.png"); }
+    .section-one .owl-theme .owl-nav button.owl-prev span,
+    .section-one .owl-theme .owl-nav button.owl-next span {
+      display: none; }
+    .section-one .owl-theme .owl-nav button.owl-prev:hover,
+    .section-one .owl-theme .owl-nav button.owl-next:hover {
+      background-color: #F9F9F9; }
+  
+.footer{
+  margin-top: 200px;
+}

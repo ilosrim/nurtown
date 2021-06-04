@@ -1,0 +1,36 @@
+.gallery-box{
+	width: 210px;
+	height: 260px;
+}
+.gallery-section .owl-theme .owl-nav {
+  position: absolute;
+  bottom: -100px;
+  left: 155px;
+   }
+  .gallery-section .owl-theme .owl-nav button.owl-prev,
+  .gallery-section .owl-theme .owl-nav button.owl-next {
+    background-image: url("../../images/ico-shape(1).png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 53px;
+    height: 53px;
+    border: 1px solid #F2F2F2;
+    outline: none; }
+    .gallery-section .owl-theme .owl-nav button.owl-prev span,
+    .gallery-section .owl-theme .owl-nav button.owl-next span {
+      display: none; }
+    .gallery-section .owl-theme .owl-nav button.owl-prev:hover,
+    .gallery-section .owl-theme .owl-nav button.owl-next:hover {
+      background-color: #F9F9F9; }
+  .gallery-section .owl-theme .owl-nav button.owl-next {
+    background-image: url("../../images/ico-shape.png"); }
+    .gallery-section .title {
+    	margin-top: 92px;
+		font-weight: 300;
+		font-size: 64px;
+		line-height: 64px;
+		color: #BDBDBD;
+		text-transform: uppercase; }
+	  .gallery-section .title p {
+	    color: #000;
+	    font-weight: bold; }

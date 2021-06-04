@@ -1,0 +1,209 @@
+.header .title {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #BDBDBD;
+  text-transform: uppercase; }
+  .header .title p {
+    color: #000;
+    font-weight: bold; }
+.header .img-box {
+  height: 780px;
+  position: relative; }
+  .header .img-box .sub-link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 222px;
+    height: 50px;
+    background-color: #fff;
+    transition: 0.3s; }
+    .header .img-box .sub-link:hover {
+      background-color: #f1f1f1; }
+    .header .img-box .sub-link a {
+      text-decoration: none; }
+      .header .img-box .sub-link a span {
+        background-image: url("../../images/ico-shape.png");
+        background-repeat: no-repeat;
+        background-position: 80% center;
+        padding-right: 52px;
+        padding-left: 30px;
+        font-size: 11px;
+        line-height: 12px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #333333; }
+.header .owl-theme .owl-nav {
+  position: absolute;
+  bottom: 30%;
+  left: -52%; }
+  .header .owl-theme .owl-nav button.owl-prev,
+  .header .owl-theme .owl-nav button.owl-next {
+    background-image: url("../../images/ico-shape(1).png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 53px;
+    height: 53px;
+    border: 1px solid #F2F2F2;
+    outline: none; }
+    .header .owl-theme .owl-nav button.owl-prev span,
+    .header .owl-theme .owl-nav button.owl-next span {
+      display: none; }
+    .header .owl-theme .owl-nav button.owl-prev:hover,
+    .header .owl-theme .owl-nav button.owl-next:hover {
+      background-color: #F9F9F9; }
+  .header .owl-theme .owl-nav button.owl-next {
+    background-image: url("../../images/ico-shape.png"); }
+
+.section-one {
+  margin-top: 120px; }
+  .section-one .container {
+    padding: 30px 70px 30px 100px;
+    height: 435px; }
+  .section-one .second-img {
+    margin-top: -55px; }
+  .section-one .third-img {
+    margin: 0 30px; }
+  .section-one .about-sec .title {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD; }
+  .section-one .about-sec .about-text {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000; }
+  .section-one .about-sec .sub-link {
+    width: 222px;
+    height: 50px;
+    background-color: #fff;
+    margin-top: 20px;
+    transition: 0.3s; }
+    .section-one .about-sec .sub-link:hover {
+      background-color: #f1f1f1; }
+    .section-one .about-sec .sub-link a {
+      text-decoration: none; }
+      .section-one .about-sec .sub-link a span {
+        background-image: url("../../images/ico-shape.png");
+        background-repeat: no-repeat;
+        background-position: 80% center;
+        padding-right: 52px;
+        padding-left: 30px;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #333333; }
+
+.section-two {
+  margin-top: 150px; }
+  .section-two .title {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    margin-bottom: 60px; }
+  .section-two .col-md-6 {
+    padding: 30px; }
+    .section-two .col-md-6 .one-img, .section-two .col-md-6 .two-img {
+      margin: 30px;
+      height: 140px; }
+    .section-two .col-md-6 .one-text {
+      font-size: 22px;
+      line-height: 23px;
+      color: #333333;
+      letter-spacing: -1px; }
+  .section-two #pr-sec {
+    padding-right: 180px; }
+
+.section-third {
+  margin-top: 120px; }
+  .section-third .title {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    margin-bottom: 60px; }
+  .section-third .img-box .img__box {
+    height: 255px;
+    margin: 3px 20px;
+    position: relative;
+    overflow: hidden; }
+    .section-third .img-box .img__box .overlay {
+      position: absolute;
+      left: 0;
+      top: -255px;
+      width: 100%;
+      height: 100%;
+      background: rgba(68, 71, 73, 0.9);
+      cursor: pointer;
+      opacity: 1;
+      transition: 0.3s;
+      padding: 45px; }
+      .section-third .img-box .img__box .overlay .title {
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 64px;
+        color: #FFFFFF;
+        margin: 0; }
+      .section-third .img-box .img__box .overlay a {
+        text-decoration: none; }
+        .section-third .img-box .img__box .overlay a span {
+          background-image: url("../../images/arrow-2-right-long.png");
+          background-repeat: no-repeat;
+          background-position: 100% center;
+          font-size: 11px;
+          line-height: 12px;
+          letter-spacing: 0.2em;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          padding-right: 30px; }
+    .section-third .img-box .img__box:hover .overlay {
+      top: -25px; }
+  .section-third #box-images-two .title {
+    font-size: 30px;
+    line-height: 30px; }
+  .section-third .pr-link {
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #333333;
+    margin-right: 20px; }
+    .section-third .pr-link span {
+      background-image: url("../../images/arrow-2-right-long");
+      background-repeat: no-repeat;
+      background-position: center;
+      font-size: 12px;
+      line-height: 12px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+
+.section-four {
+  margin-top: 120px; }
+  .section-four .title {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    margin-bottom: 60px; }
+  .section-four .needs-validation {
+    height: 369px; }
+    .section-four .needs-validation .form-control {
+      border: none;
+      outline: none;
+      background-color: #F3F3F3;
+      border-radius: 0; }
+    .section-four .needs-validation button {
+      background-color: #333333;
+      padding: 10px 80px;
+      color: #fff;
+      outline: none;
+      border: none;
+      background-image: url("../../images/arrow-2-right-long");
+      background-repeat: no-repeat; }
+      .section-four .needs-validation button:hover {
+        background-color: #444444; }
+  .section-four .form-images {
+    height: 369px; }

@@ -1,0 +1,50 @@
+.contact-section {
+  margin-top: 120px;
+  position: relative; }
+  .contact-section .title{
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+  }
+  .contact-section .title p{
+    font-weight: bold;
+    color: #333333;
+  }
+  .map{
+    position: absolute;
+    right: -105px;
+    top: -90px;
+  }
+  .about-text{
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    margin-top: 34px;
+}
+.number{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+  margin-top: 34px;
+}
+.mail{
+  margin-top: 52px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+.button-about a{
+  padding: 30px 43px;
+  background-color: #333333;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.button-about a:hover{
+  background-color: #444444;
+}
